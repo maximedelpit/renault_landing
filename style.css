@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+#features h3 .fas {
+  color: #fc3;
+}
+
 #reprise .row {
   margin: 50px 0;
 }
@@ -60,6 +64,15 @@ h1, h2, h3, h4, h5, h6 {
 #footer {
   background: rgb(25, 25, 25);
   color: #fc3;
+}
+
+#footer a {
+  color: #fc3;
+  cursor: pointer;
+}
+
+#footer a:hover {
+  opacity: 0.6;
 }
 
 #footer ul {
@@ -71,3 +84,4 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #fc3;
   font-family: 'Markazi Text', "Renault Light","Renault Regular",Helvetica,Arial, serif;
 }
+
