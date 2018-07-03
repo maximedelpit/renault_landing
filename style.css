@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -24,8 +25,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: 100%;
   overflow: hidden;
-  height: 90vh;
+  height: 85vh;
   position: relative;
+  font-family: 'Markazi Text', "Renault Light","Renault Regular",Helvetica,Arial, serif;
 }
 
 #value-prop .value-prop-description {
@@ -38,13 +40,17 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 
+#value-prop .value-prop-description p {
+  font-size: 18px;
+}
+
 #features {
   background-color: rgb(245, 245, 245);
   padding: 80px 0;
 }
 
 #features h3 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 #reprise .row {
@@ -63,4 +69,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .underlined-title {
   border-bottom: 2px solid #fc3;
+  font-family: 'Markazi Text', "Renault Light","Renault Regular",Helvetica,Arial, serif;
 }
