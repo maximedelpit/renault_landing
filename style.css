@@ -14,3 +14,19 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
+img {
+  width: 100%;
+}
+
+div {
+  margin: 4px; /* A retirer : ici pour démarquer les blocs */
+  padding: 4px; /* A retirer : ici pour démarquer les blocs */
+  border: 1px dashed red; /* A retirer : ici pour démarquer les blocs */
+}
+
+div > div {
+  padding: 10px; /* A retirer : ici pour démarquer les blocs */
+  margin: 10px; /* A retirer : ici pour démarquer les blocs */
+  border: 1px dashed #fc3; /* A retirer : ici pour démarquer les blocs */
+}
