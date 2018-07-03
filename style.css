@@ -36,7 +36,8 @@ a {
 
 
 #features {
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(250, 250, 250);
+  padding: 20px 0;
 }
 
 #features h3 {
