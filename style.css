@@ -5,17 +5,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-a {
+.btn-warning {
   font-family: Helvetica;
   background-color: #fc3;
   color: rgb(25, 25, 25);
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+}
+
+#main-btn {
+  width: 100%;
 }
 
 #value-prop {
@@ -38,22 +38,17 @@ a {
   top: 0;
 }
 
-
 #features {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
   padding: 80px 0;
 }
 
 #features h3 {
-  border-bottom: 2px solid #fc3;
+  font-size: 18px;
 }
 
-#reprise {
+#reprise .row {
   margin: 50px 0;
-}
-
-#reprise-img {
-  width: 85%;
 }
 
 #footer {
@@ -64,4 +59,8 @@ a {
 #footer ul {
   margin: 0;
   padding: 12px 20px;
+}
+
+.underlined-title {
+  border-bottom: 2px solid #fc3;
 }
